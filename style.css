@@ -2,21 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: #fff;
+  background: #f9f4f0;
   color: #333;
 }
 
 header {
-  background: #7051b5;
+  background: #ff3366;
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #f7cfff;
+  color: white;
 }
 
 header .logo {
@@ -73,9 +73,10 @@ section {
 }
 
 .produto {
-  background: #f9f9f9;
+  background: #fff;
   padding: 15px;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 .produto img {
@@ -84,10 +85,11 @@ section {
 }
 
 .cat {
-  background: #eee;
+  background: #fff;
   padding: 40px 10px;
   font-size: 1.2em;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 .contato form {
@@ -119,4 +121,11 @@ footer {
   color: #ccc;
   text-align: center;
   padding: 20px;
+}
+
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
